@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>calculadora online</title>
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-    <header>Calculadora Inline</header>
+    <header class="cabecalho">Calculadora Inline</header>
 
     <main>
 
@@ -17,34 +21,33 @@
             <p id="resultado"></p>
             <table>
                 <tr>
-                    <td><button class="botão">CA</button></td>
-                    <td><button class="botão">{</button></td>
-                    <td><button class="botão">}</button></td>
-                    <td><button>/</button></td>
+                    <td><button class="botao" onclick="limpaValores()">CA</button></td>
+                    <td><button class="botao" onclick="insertValor('{')">{</button></td>
+                    <td><button class="botao" onclick="insertValor('}')">}</button></td>
+                    <td><button class="botao" onclick="insertValor('/')">/</button></td>
                 </tr>
                 <tr>
-                    <td><button class="botão">7</button></td>
-                    <td><button class="botão">8</button></td>
-                    <td><button class="botão">9</button></td>
-                    <td><button class="botão">*</button></td>
+                    <td><button class="botao" onclick="insertValor('7')">7</button></td>
+                    <td><button class="botao" onclick="insertValor('8')">8</button></td>
+                    <td><button class="botao" onclick="insertValor('9')">9</button></td>
+                    <td><button class="botao" onclick="insertValor('*')">x</button></td>
                 </tr>
                 <tr>
-                    <td><button class="botão">4</button></td>
-                    <td><button class="botão">5</button></td>
-                    <td><button class="botão">6</button></td>
-                    <td><button class="botão">-</button></td>
+                    <td><button class="botao" onclick="insertValor('4')">4</button></td>
+                    <td><button class="botao" onclick="insertValor('5')">5</button></td>
+                    <td><button class="botao" onclick="insertValor('6')">6</button></td>
+                    <td><button class="botao" onclick="insertValor('-')">-</button></td>
                 </tr>
                 <tr>
-                    <td><button class="botão">1</button></td>
-                    <td><button class="botão">2</button></td>
-                    <td><button class="botão">3</button></td>
-                    <td><button class="botão">+</button></td>
+                    <td><button class="botao" onclick="insertValor('1')">1</button></td>
+                    <td><button class="botao" onclick="insertValor('2')">2</button></td>
+                    <td><button class="botao" onclick="insertValor('3')">3</button></td>
+                    <td><button class="botao" onclick="insertValor('+')">+</button></td>
                 </tr>
                 <tr>
-                    <td><button class="botão">0</button></td>
-                    <td><button class="botão">.</button></td>
-                    <td><button class="botão"><</button></td>
-                    <td><button class="botão">=</button></td>
+                    <td><button class="botao" onclick="insertValor('0')">0</button></td>
+                    <td><button class="botao" onclick="insertValor('.')">.</button></td>
+                    <td><button class="botao" onclick="showresult()">=</button></td>
                 </tr>
             </table>
         </div>
