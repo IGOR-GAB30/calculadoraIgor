@@ -1,5 +1,5 @@
 .fundo{
-    background-color:rgba(82, 33, 189, 0.37);
+    background-color:rgba(21, 51, 133, 0.247);
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -11,7 +11,7 @@
 }
 
 .calculadora{
-    background-color: rgb(160, 165, 212);
+    background-color: rgb(139, 143, 177);
     position: absolute;
     top: 30%;
     left: 44%;
@@ -29,7 +29,7 @@
 
 .botao{
     display: flex;
-    background-color: indianred;
+    background-color: rgb(204, 122, 122);
     height: 50px;
     width: 50px;
     align-items: center;
