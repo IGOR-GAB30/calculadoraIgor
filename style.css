@@ -1,5 +1,5 @@
 .fundo{
-    background-color:rgba(153, 104, 189, 0.37);
+    background-color:rgba(82, 33, 189, 0.37);
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -8,7 +8,6 @@
 
 .cabecalho{
     text-align: center;
-    background-color: rgba(114, 100, 237, 0.301);
 }
 
 .calculadora{
@@ -23,8 +22,9 @@
 
 #resultado{
     background-color: aliceblue;
-    height: 30px;
-    
+    height: 50px;
+    text-align: right;
+    width: 220px;
 }
 
 .botao{
@@ -35,8 +35,4 @@
     align-items: center;
     justify-content: center;
     border-radius: 15%;
-}
-
-.rodape{
-
 }

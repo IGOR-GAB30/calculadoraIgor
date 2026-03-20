@@ -13,3 +13,4 @@ function showresult() {
 function limpaValores() {
     document.getElementById('resultado').value = '';
 }
+
